@@ -26,3 +26,10 @@ The current main objective for this project is to find the most effective model 
 
 
 ### Hyperparameter Tuning 
+
+
+### Vector Embeddings
+
+The Transformer model requires vector embeddings of the data, even though this task does not require NLP. Since the data for this project is in a tabular form, embedding and tokenization differentiates from commonly used techniques. There are many options to choose from, but this project will use TabTransformer with numerical data embeddings. 
+
+With richer data sets, temporal structures can also be formed with respect to each individual fighter's historical data.
